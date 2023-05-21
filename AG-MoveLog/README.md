@@ -74,7 +74,7 @@ This process updates master_files and also outputs a powershell file that can be
      }
      Write-Host "3. Stopping SqlInstance $Instance"
      Stop-DbaService -Computer $Computer -Instance $Instance
-
+```
 
 
 ## Step 4 Move Files from old to new location
