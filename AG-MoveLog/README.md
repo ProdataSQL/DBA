@@ -7,7 +7,7 @@ For an Availability Group (AG), there are a few complexities to navigate such as
 - We cant move files while the SqlInstance is running and we cant take database offline.
 
 
-The sample script has a seven step process to automate moving log files en-mass with an Availability group. This is just a sample script so you would ahve to modify it for file locations and if you dont need all the steps
+The sample script has a seven step process to automate moving log files en-mass with an Availability group. This is just a sample script so you would have to modify it for file locations and if you dont need all the steps
 
 ## Step 1 Get Primary Replica and Turn off readable secondaries on the replica to be moved
 ```powershell
