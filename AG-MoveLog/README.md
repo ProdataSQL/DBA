@@ -1,7 +1,7 @@
 # AG-MoveLog
 Sample Powershell script to Move Logs "en mass" for a SqlInstance which is protected by an availability Group.
 
-For an Availability Group (AG), there are a few complexities to navigae such as:
+For an Availability Group (AG), there are a few complexities to navigate such as:
 - If a relica is a readable secondary we cant update the master files with new locations. 
 - File locations cannot be modifed while sychronisation is in progres So we need to pause database HADR
 - We cant move files while the SqlInstance is running and we cant take database offline.
